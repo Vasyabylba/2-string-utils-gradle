@@ -1,0 +1,11 @@
+plugins {
+    id 'string-utils.java-conventions'
+}
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    implementation project(':core')
+}
